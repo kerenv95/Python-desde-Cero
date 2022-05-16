@@ -1,0 +1,157 @@
+-------------Ejecución y compilación de un programa con Python-------------
+
+>>> IDLE: interprete (ejecuta linea por linea - instrucción por instrucción)
+print ("hola mundo")
+
+el editor de IDLE nos permite ingresar varias lineas para compilar
+	File- New File
+Para ejecutar los comandos se debe guardar el programa
+	File - Save - whit nombre.py (nos da el formato)
+>>> Python 3.10.4: consola de comandos (permite compilar) 
+finalizar el proceso: exit()
+
+
+>>> block de notas: Se programa y cuando se guarde se pone nombre.py
+ Ejecutar: se abre la consola de comandos 
+	   se ingresa "cd desktop" - enter
+	   "dir" 
+	   "python Nombre del programa.py - enter 
+
+-------------Variables en Python-------------
+Variable es un espacio donde se guardan datos
+Cada variable debe tener un nombre
+
+En python las variables no se pueden llamar como los comandos
+	ejem: Print no se puede.
+En pyhton las variables no se pueden llevar espacios en blancos
+	ejem: "nom bre" no se puede.
+los 2 tipos de variables mas comners:
+	variables que almacenan textos: (int, float)
+	variables que almacenan numeros: (str) // el contenido siempre irá entre comillas.
+
+Declarar una variable:
+asigana el nombre a la variable.
+con el signo "="
+el dato a guardar.
+ejem: 
+	numero_uno = 2
+	Numero = "hola mundo"
+	estas variables son diferentes ya que una tiene la "N" y la otras la "n"
+
+print("esto es una suma")
+numero_uno = 2
+numero_dos = 4
+
+resultado = numero_uno + numero_dos
+
+print(resultado)
+
+
+-------------Manipulación de cadenas de caracteres (Strings)-------------
+Los string: serie de caracteres, simbolos, permiten la interacción de un programa con el ususario
+Operaciones para los String:
+	Asignación: += Asigna una cadena de caracteres a otra
+		"""mensaje = "Hola"
+		mensaje += " "
+		mensaje += "Ernesto"
+		print (mensaje)"""
+
+	Concatenación: + unir 2 cademas o mas.
+OJO: no se puede concatenar string y enteros, para ello debes convertir el numero entero en strig, string = str(numero)	
+suma = str(suma)
+		"""mensaje = "Hola"
+		espacio = " "
+		nombre = "Ernesto"
+		print(mensaje + espacio + nombre)"""
+	
+	Busqueda: Find localiza dentro de una cadena un valor particular.
+esta función compara espacio por espacio hasta encontrar el string, o numero buscado y comoresultado nos entrega la posicion de lo buscado.
+		mensaje = "hola Ernesto"
+		buscar_subcadena = mensaje.find("Ernesto")
+		print (buscar_subcadena)
+
+	Extracción: [x:y] sacar de la cadena una porción de la misma.
+OJO: x= inicio de la subcadena ; y= fin de la subcadena.		
+	mensaje ="hola Ernesto"
+		extraer_subcadena = mensaje[1:8]
+		print (extraer_subcadena)
+
+	Comparación: == compara 2 cadenas de caracteres
+		mensaje_uno = "hola"
+		mensaje_dos = "hola"
+		print(mensaje_uno == mensaje_dos)
+esto nos entresa un True o False
+
+	
+-------------Palabras reservadas-------------
+Son identificadores, identifican variables, métodos, objetos o cualquier elemnto del código.
+existen un total de 28 palabras resignadas - uso exclusivo del lenguaje
+
+and    del      for       is     raisen   assert
+if     else     elif      from   lambda   return
+break  global   not       try    class    except
+or     while    continue  exec   import   yield
+def    finally  in        print
+
+NO SE PUEDEN USAR PARA VARIABLES
+
+-------------Operadores aritméticos-------------
+Se utilizan para realizar operaciones aritmeticas (sumas, resta, división, multiplicación, modulo o resido y exponencial)
+	Suma: + Reunión de conjutos, sumados y guardados en una variables.
+	Resta: - Reunión de cojutos, restados y guardados en una variable.
+	Multiplicación: * resultado de sumar un numero varias veces. 
+    Potencia Exponente: **  multiplicar un número varias veces.
+	Módula: (%) es el residuo de la división
+	División: / Cuantas veces esta contenido un número en otro.
+	División Entera: // el numero entero de una división- no salen los decimales.
+
+-------------Comentarios-------------
+incrustar anotaciones legibles al programador en el codigo fuente
+Se utiliza para hacer el codigo mas facil de entender (visitas y/o mantenimiento)
+# : Comentario de una linea.
+" " :es un string sin ninguna variable asignada, por ello se interpreta como un valor nulo y pythoon no lo toma en cuenta.
+""" """ : comentarios multilineas.
+
+
+-------------Tipos de datos-------------
+El tipo de dato es un atributo de los datos que indica que tipo de dato se va a manejar.
+
+	Enteros y largos  (int, long): numeros que no tienen decimales, pueden ser pasitivos o negativo.
+	Flotantes (float): tienen decimales, tanto positivos como negatio.
+	Números complejos (complex): tiene una parte real y una ima
+garia.
+	Cadenas (strings): texto encerrado entre '***' o "***"
+OJO: si encerramos el texto en 3 comillas (""" ***""" ó '''***''') se crea un texto de varias lineas.
+	Booleanos (bool): Toma el valor True o False.
+
+
+-------------Entrada de datos desde el teclado-------------
+
+input () lo que va dentro del parentesis es capturado desde la consola.
+variable_input = input() se guada en el progrma en una variable.
+
+-------------Sentencias condicionales simples (if)-------------
+Son instrucciones que se ejecutan cuando un progama se le establece una condición logica.
+Estas noa ayudan a comprobar si una sentencia es verdadera o falsa.
+con base a ello se realiza una acción.
+
+if Condicion logica : 
+	insrucción
+-------------Sentencias condicionales compuestas (if - else)-------------
+
+if Condicion logica : 
+	insrucción
+else:
+	instrucción
+print("Fin")
+round = nos muestra la cantidad de decimales que queremos imprimir en pantalla. 
+ round(variable,2) se mostrara la variables con 2 numeros decimales
+
+-------------Sentencias condicionales múltiples-------------
+
+if Condicion logica : 
+	insrucción
+elif Condicion logica : 
+	insrucción
+else:
+	instrucción
