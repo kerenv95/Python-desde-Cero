@@ -1,0 +1,260 @@
+#print ("hola mundo")
+#print ("estoy aprendiendo python")
+#---------------------------------
+"""print("esto es una suma")
+numero_uno = 2
+numero_dos = 4
+
+resultado = numero_uno + numero_dos
+
+print(resultado)"""
+#---------------------------------
+
+"""mensaje = "Hola"
+mensaje += " "
+mensaje += "Ernesto"
+print (mensaje)"""
+#---------------------------------
+
+"""mensaje = "Hola"
+espacio = " "
+nombre = "Ernesto"
+
+print(mensaje + espacio + nombre)"""
+
+#---------------------------------
+
+"""numero_uno = 4
+numero_dos = 2
+suma = numero_uno + numero_dos
+suma = str(suma)
+
+print ("el resultado de la suma es: " + suma)"""
+
+#---------------------------------
+
+"""print ("Busqueda: ")
+mensaje = "hola Ernesto"
+buscar_subcadena = mensaje.find("Ernesto")
+print (buscar_subcadena)"""
+
+#---------------------------------
+
+"""mensaje ="hola Ernesto"
+extraer_subcadena = mensaje[1:8]
+print (extraer_subcadena)"""
+
+#---------------------------------
+
+"""mensaje_uno = "hola"
+mensaje_dos = "hola"
+print(mensaje_uno == mensaje_dos)"""
+
+
+#---------------------------------
+
+"""pRint = 5
+Print = 6 
+resultado = pRint + Print
+print(resultado)"""
+
+#---------------------------------
+
+"""Numero_uno = 5
+Numero_dos = 4
+resultado = Numero_uno + Numero_dos
+print("El resultado de la suma es:  " + str(resultado))"""
+
+#---------------------------------
+
+"""Numero_uno = 5
+Numero_dos = 4
+resultado = Numero_uno - Numero_dos
+print("El resultado de la resta es:  " + str(resultado))"""
+#---------------------------------
+
+"""Numero_uno = 5
+Numero_dos = 4
+resultado = Numero_uno * Numero_dos
+print("El resultado de la multiplación es:  " + str(resultado))"""
+#---------------------------------
+
+"""Numero_uno = 5
+Numero_dos = 4
+resultado = Numero_uno ** Numero_dos
+print("El resultado de la potencia es:  " + str(resultado))"""
+#---------------------------------
+
+"""Numero_uno = 4
+Numero_dos = 2
+resultado = Numero_uno / Numero_dos
+print("El resultado de la division es:  " + str(int(resultado)))"""
+#---------------------------------
+
+"""Numero_uno = 30
+Numero_dos = 8
+resultado = Numero_uno % Numero_dos
+print("El resultado de la Módulo es:  " + str(resultado))"""
+#---------------------------------
+
+"""Numero_uno = 4 # asigno el número 4 a la variable Numero_uno
+Numero_dos = 2 "Asignando el número 2 a la variable Numero_dos"
+resultado = Numero_uno // Numero_dos
+print("El resultado de la División entera es:  " + str(resultado))"""
+#---------------------------------
+
+"""import json
+
+canine = '["perro","lobo", "zorro", "chacale", "coyote", "cuone", "dingo", "licaone", "aguará" "guazú", "guará", "culpeo", "aguarachay", "culpeo" , "vulpinos"]'
+feline = '["gato","tigre", "pantera", "puma", "lince", "guepardo", "león", "jaguar"]'
+
+lista_canines = json.loads(canine)
+lista_feline = json.loads(feline)
+animal = input()
+
+for canine in lista_canines:
+	if animal==canine:
+		print(animal + " es un canino")	
+
+for feline in lista_feline:
+	if animal==feline:
+		print(animal + " es un felino")"""
+
+#---------------------------------
+
+#Tipo de Dato entero o largo long
+
+#numero = 15
+#x = type(numero)
+#print ("El número ",numero, "es de " ,x)
+
+"Otra forma es:"
+
+"""numero =15
+print(numero, type(numero))"""
+
+#---------------------------------
+
+#Topi de dato flotante
+
+"""numero_flotante = 15.5
+print(numero_flotante, type(numero_flotante))"""
+
+#---------------------------------
+
+#Tipo de Dato Número complejo
+
+"""numero_complejo = 5 + 6j
+print(numero_complejo, type(numero_complejo))"""
+
+#---------------------------------
+
+#Tipo de Dato String
+
+"""nombre = "Ernesto"
+print(nombre,type(nombre))"""
+
+#---------------------------------
+
+#Tipo de Dato Booleano
+
+"""verdadero_falso = 3 == 3
+print(verdadero_falso,type(verdadero_falso))"""
+
+#---------------------------------
+
+"""String = str(input("Ingrese una palabra  "))
+Int = int(input("Ingrese un número entero  "))
+Float = float(input("Ingrese un número real  "))
+Complex = complex(input("Ingrese un número imaginario  "))
+
+print ("String: ",String)
+print ("Int  ",Int)
+print ("Float ",Float)
+print ("Complex",Complex)"""
+
+#---------------------------------
+
+"""Nombre = str(input("Ingrese su nombre  "))
+print("Hola " + Nombre + "vamos a realizar una suma")
+
+numero_uno = int(input("Ingrese el primer número  "))
+numero_dos = int(input("Ingrese el segundo número  "))
+suma = numero_uno + numero_dos
+
+print("el reusltado de la suma es:  ", suma)"""
+
+#---------------------------------
+
+"""num_uno = 10
+if num_uno ==5:
+    print("El número es cinco")
+print("Fin.")"""
+
+#---------------------------------
+
+"""nombre = input("¿Cuál es tu nombre?:  ")
+mate = int(input(nombre + "¿Cuál fue la nota obtenida en Matemáticas?: "))
+quimica = int(input(nombre + "¿Cuál fue la nota obtenida en Quimica?: "))
+biolo = int(input(nombre + "¿Cuál fue la nota obtenida en Biologia?: "))
+promedio = ((mate + quimica + biolo)/3)
+promedio = int(promedio)
+if promedio >= 6:
+              print("Felicidades  " , nombre, "aprobaste, con un promedio de:  ", promedio)
+print ("FIN")  """           
+#---------------------------------
+
+"""nombre = input("¿Cuál es tu nombre?:  ")
+mate = float(input(nombre + "¿Cuál fue la nota obtenida en Matemáticas?: "))
+quimica = float(input(nombre + "¿Cuál fue la nota obtenida en Quimica?: "))
+biolo = float(input(nombre + "¿Cuál fue la nota obtenida en Biologia?: "))
+promedio = ((mate + quimica + biolo)/3)
+modulo = ((mate + quimica + biolo) % 3)
+Promedio = (modulo * 0.1) + int(promedio) 
+
+if promedio >= 6:
+    print("Felicidades  " , nombre, "aprobaste, con un promedio de:  ", promedio)
+    print("Felicidades  " , nombre, "aprobaste, con un promedio de:  ", Promedio)
+else:
+    print("lo sentimos  " , nombre, "reprobaste, con un promedio de:  ", promedio)
+    print("Felicidades  " , nombre, "aprobaste, con un promedio de:  ", Promedio)
+    
+print ("FIN") """
+#---------------------------------
+
+"""nombre = input("¿Cuál es tu nombre?:  ")
+mate = float(input(nombre + "¿Cuál fue la nota obtenida en Matemáticas?: "))
+quimica = float(input(nombre + "¿Cuál fue la nota obtenida en Quimica?: "))
+biolo = float(input(nombre + "¿Cuál fue la nota obtenida en Biologia?: "))
+promedio = ((mate + quimica + biolo)/3)
+
+if promedio >= 6:
+    print("Felicidades  " , nombre, "aprobaste, con un promedio de:  ", promedio)
+    print("Felicidades  " , nombre, "aprobaste, con un promedio de:  ", round(promedio,2))
+else:
+    print("lo sentimos  " , nombre, "reprobaste, con un promedio de:  ", promedio)
+    print("Felicidades  " , nombre, "aprobaste, con un promedio de:  ", round(promedio,2))
+    
+print ("FIN")"""
+#---------------------------------
+
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
+#---------------------------------
