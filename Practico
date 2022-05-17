@@ -237,13 +237,26 @@ else:
     
 print ("FIN")"""
 #---------------------------------
+""print("----------------------------------")
+print("¡¡Convertidor de número a letras!!")
+print("----------------------------------")
 
+x = int(input("¿Cúal es el número que deseas convertir?:  "))
+
+if x ==1:
+    print("¿El número ingresado es uno.")
+elif x==2:
+    print("¿El número ingresado es dos.")
+elif x==3:
+    print("¿El número ingresado es tres.")
+elif x==4:
+    print("¿El número ingresado es cuatro.")
+elif x==5:
+    print("¿El número ingresado es cinco.")
+else :
+    print("Solo convertimos a stream número del [1] al [5]")"""
 #---------------------------------
-#---------------------------------
-#---------------------------------
-#---------------------------------
-#---------------------------------
-#---------------------------------
+
 #---------------------------------
 #---------------------------------
 #---------------------------------
